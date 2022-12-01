@@ -39,10 +39,10 @@ def send_email(url, email):
         sys.exit(1)
 
 if __name__ == "__main__":
-    #users = [
-    #    {"email": "toth.janci@gmail.com","first_name": "Jan", "last_name": "Toth"},
-    #    {"email": "liu.toth.janci@gmail.com","first_name": "Jan", "last_name": "Tothliu"},
-    #]
+    users = [
+        {"email": "xyz@gmail.com","first_name": "Johny", "last_name": "Smith"},
+        {"email": "liu.xyz@gmail.com","first_name": "Joe", "last_name": "Doe"},
+    ]
 
     base_url = os.environ.get('WP_BASE_URL', "")
     password = os.environ.get('WP_API_PASS', "")
